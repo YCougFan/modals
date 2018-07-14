@@ -61,7 +61,7 @@ class ModalExample extends React.Component {
                         </Modal>
                     </ModalBody>
                     <ModalFooter>
-                        <Button color="primary" onClick={this.toggle}>Continue</Button>{' '}
+                        <Button color="primary" onClick={this.toggleContinue}>Continue</Button>{' '}
                         <Button color="secondary" onClick={this.toggle}>Cancel</Button>
                     </ModalFooter>
                 </Modal>
